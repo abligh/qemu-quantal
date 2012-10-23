@@ -102,7 +102,7 @@ override_dh_auto_configure config:
 		--extra-cflags="$(CFLAGS)" \
 		--extra-ldflags="$(LDFLAGS)" \
 		--disable-strip \
-		--disable-xen \
+		--enable-xen \
 		--disable-guest-agent \
 		--audio-drv-list="pa,alsa,sdl,oss" \
 		--enable-docs \
